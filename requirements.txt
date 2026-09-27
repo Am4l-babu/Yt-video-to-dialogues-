@@ -1,0 +1,14 @@
+yt-dlp[default]>=2025.11.12
+pydub>=0.25.1
+faster-whisper>=1.1.0
+tqdm>=4.66.0
+numpy>=1.24.0
+rapidocr>=3.0
+# GPU OCR. Also brings the CUDA/cuDNN libraries that faster-whisper uses.
+# NOTE: faster-whisper also pulls in the CPU "onnxruntime", which shadows this package.
+# After installing this file, run:
+#   pip uninstall -y onnxruntime
+#   pip install --force-reinstall --no-deps onnxruntime-gpu
+onnxruntime-gpu[cuda,cudnn]>=1.21
+audioop-lts>=0.2.1; python_version >= "3.13"
+nvidia-cublas-cu12>=12.4; sys_platform == "win32"

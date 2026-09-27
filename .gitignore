@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Generated / working data (large audio, video, downloads)
+temp_downloads/*
+output_clips/*
+!temp_downloads/.gitkeep
+!output_clips/.gitkeep
+
+# OS / editor
+.vscode/
+.DS_Store
+Thumbs.db
