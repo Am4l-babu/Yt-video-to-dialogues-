@@ -2,9 +2,9 @@
 
 # 🎬 YouTube Dialogue Clipper
 
-**Point it at a YouTube video or playlist → get back a folder of perfectly-named, perfectly-cut dialogue clips.**
+**Raw material for Malayalam troll videos, extracted automatically.**
 
-No manual scrubbing. No renaming 200 files by hand. No guessing where one line ends and the next begins.
+Point it at a YouTube video or playlist of Malayalam movie dialogue compilations → get back a folder of clean, individually-named audio clips, ready to drop into your next troll edit.
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![CUDA](https://img.shields.io/badge/GPU-CUDA%20accelerated-76B900?logo=nvidia&logoColor=white)](#-gpu-acceleration)
@@ -15,13 +15,11 @@ No manual scrubbing. No renaming 200 files by hand. No guessing where one line e
 
 ---
 
-## 🤔 The problem
+## 🎯 What it's for
 
-Channels like "Top 10 Malayalam Troll Dialogues" pack ten quotable lines into one video. If you want each line as its own audio file — named sensibly, not `clip_04.wav` — you're stuck scrubbing the timeline by hand, over and over, for every video in the playlist.
+Channels like "Top 10 Malayalam Troll Dialogues" compile ten iconic movie lines into one video — exactly the raw audio troll-video and meme makers reuse over and over ("Ithokke enthu....", "Kudumbiye njan pidichu..", and so on). Getting each line out as its own clean file usually means scrubbing the timeline by hand for every video in the channel's back catalog.
 
-## ✨ The idea
-
-This script does that scrubbing for you, two different ways depending on what the video gives it to work with:
+This script automates that extraction, two different ways depending on what the video gives it to work with:
 
 <table>
 <tr>
@@ -306,6 +304,6 @@ The card-background detector expects one dominant flat colour per card. If a cha
 
 <div align="center">
 
-Made for turning hours of scrubbing into minutes of `python src/main.py`.
+Built for troll editors, meme pages, and anyone else remixing Malayalam movie dialogues — so the audio hunt takes minutes, not hours.
 
 </div>
